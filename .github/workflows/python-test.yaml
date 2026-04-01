@@ -14,11 +14,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check out the repository code onto the runner
+      # Step 1: Check out the repository code prebuilt action on runner
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # Step 2: Set up the Python environment
+      # Step 2: Set up the Python environment prebuilt action on runner
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
